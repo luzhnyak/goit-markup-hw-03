@@ -38,6 +38,8 @@ img {
   display: block;
 }
 
+/* ======================= Utilites ========================== */
+
 .list {
   list-style: none;
 }
@@ -58,6 +60,7 @@ img {
   padding-right: 15px;
 }
 
+/* ======================= /Utilites ========================== */
 /* ======================= Components section ========================== */
 
 .logo-link {
@@ -164,7 +167,6 @@ img {
 
 .contacts-link {
   font-style: normal;
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
