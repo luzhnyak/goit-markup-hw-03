@@ -241,6 +241,10 @@ img {
   display: flex;
   gap: 24px;
 }
+
+.about-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
 /* ======================= /About section ========================== */
 
 /* ======================= Work section ========================== */
@@ -252,8 +256,11 @@ img {
 .work-list {
   display: flex;
   gap: 24px;
-
   align-items: center;
+}
+
+.work-item {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 /* ======================= /Work section ========================== */
@@ -271,6 +278,7 @@ img {
 }
 .team-list-item {
   background-color: var(--white-color);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-content-wraper {
@@ -329,6 +337,10 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .portfolio-content-wraper {
